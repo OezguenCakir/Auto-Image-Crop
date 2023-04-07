@@ -30,7 +30,7 @@ st.set_page_config(
 )
 
 st.title('Dein transparentes Bild automatisch zuschneiden')
-st.image('/Users/ozguncakir/Repositories/Auto-Image-Crop/thumbnail.jpg')
+st.image('https://raw.githubusercontent.com/OezguenCakir/Auto-Image-Crop/main/thumbnail.jpg')
 
 uploaded_file = st.file_uploader("Wähle dein Bild")
 
